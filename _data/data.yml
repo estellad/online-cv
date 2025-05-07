@@ -237,7 +237,7 @@ publications:
     intro: |
     
     papers:
-      - title: From Transcripts to Cells: Dissecting Sensitivity, Signal Contamination, and Specificity in Xenium Spatial Transcriptomics
+      - title: From Transcripts to Cells – Dissecting Sensitivity, Signal Contamination, and Specificity in Xenium Spatial Transcriptomics
         authors: Bilous, M., Buszta, D., Bac, J., Kang, S., <u>Dong, Y.</u>, et al., & Homicsko, K., Gottardo, R.
         conference: "bioarxiv (2025)"
         

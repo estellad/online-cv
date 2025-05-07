@@ -22,13 +22,12 @@ sidebar:
     bitbucket:
     twitter:
     bluesky: '@estellayixingdong.bsky.social'
-    googlescholar: scholar.google.com/citations?user=VW7ttMQAAAAJ&hl=en&oi=ao #do not add http://
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     
     authoredsoftwares:  
-      - item: OSTA
+      - item: OSTA book
         link: https://lmweber.org/OSTA/
         
       - item: SpatialExperimentIO
@@ -39,12 +38,6 @@ sidebar:
         
       - item: COVID19 Data Hub 
         link: https://covid19datahub.io/
-
-      - item: OSTA.data
-        link: https://github.com/estellad/OSTA.data
-        
-      - item: STexampleData  
-        link: https://github.com/estellad/STexampleData
       
     journalreviews:  
       - item: Bioinformatics
@@ -61,13 +54,13 @@ sidebar:
       - item: Cluster, Snakemake, Container  
         
     interests:  
-      - item: Precision Medicine & Immuno-oncology
+      - item: Precision Medicine 
 
       - item: Statistics & Machine Learning
         
       - item: Clinical Trials & RWE
       
-      - item: Spatial Transcriptomics 
+      - item: Spatial Omics & Immuno-oncology
       
 
     languages:
@@ -88,7 +81,7 @@ sidebar:
 
       - item: Artistic Ice Skating
 
-      - item: Hiking & Piano
+      - item: Hiking 
       
       
 career-profile:
@@ -108,7 +101,7 @@ education:
     university: University of British Columbia
     time: 2014 - 2018
       
-employment:
+experiences:
     - role: Doctoral Researcher
       time: 09.2022 - Present
       company: CHUV - Biomedical Data Science Center, Lausanne
@@ -151,7 +144,7 @@ employment:
         • Trained Random Forest classifiers in R on imbalanced oral cell data to assist pathologists.<br>
         • Delivered bi-monthly presentations on deep learning applications in pathology.<br>
   
-community-involvement:
+community:
   - entries:
       - role: useR! 2024 Conference Organizing Committee
         time: 07.2024
@@ -211,7 +204,7 @@ community-involvement:
       • Contributed to the organization of student activities. <br>
       • Mentored two junior students, providing guidance on curriculum planning. <br>       
 
-visiting-scholar:
+scholar:
     - role: <a href="https://github.com/estellad/Discrete-vs-Continuous-MSM" target="_blank"> Continuous-time Marginal Structural Models in Pharmacoepidemiology</a>
       time: 01.2020 - 12.2020
       company: Institute for Clinical Evaluative Sciences (ICES), Toronto, Canada
@@ -237,19 +230,19 @@ publications:
     intro: |
     
     papers:
-      - title: From Transcripts to Cells – Dissecting Sensitivity, Signal Contamination, and Specificity in Xenium Spatial Transcriptomics
+      - title: <a href="https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1" target="_blank"> From Transcripts to Cells – Dissecting Sensitivity, Signal Contamination, and Specificity in Xenium Spatial Transcriptomics</a>
         authors: Bilous, M., Buszta, D., Bac, J., Kang, S., <u>Dong, Y.</u>, et al., & Homicsko, K., Gottardo, R.
         conference: "bioarxiv (2025)"
         
-      - title: Transcriptome Analysis of Archived Tumor Tissues by Visium, GeoMx DSP, and Chromium Methods Reveals Inter-and Intra-Patient Heterogeneity
+      - title: <a href="https://www.biorxiv.org/content/10.1101/2024.11.01.621259v1" target="_blank"> Transcriptome Analysis of Archived Tumor Tissues by Visium, GeoMx DSP, and Chromium Methods Reveals Inter-and Intra-Patient Heterogeneity</a>
         authors: <u>Dong, Y.</u>, Saglietti, C., Bayard, Q., Perez, A. E., Carpentier, et al., & Gottardo, R. & Madissoon, E.
         conference: "Nature Communication (2025)"
         
-      - title: An Approach for Integrating Multimodal Omics Data into Sparse and Interpretable Model
+      - title: <a href="https://doi.org/10.1016/j.crmeth.2024.100718" target="_blank"> An Approach for Integrating Multimodal Omics Data into Sparse and Interpretable Model</a>
         authors: <u>Dong, Y.</u> & Gottardo, R. 
         conference: "Cell Reports Methods (2024)"
         
-      - title: Continuous-time Marginal Structural Models for Adverse Drug Effects in Pharmacoepidemiology
+      - title: <a href="http://hdl.handle.net/1807/104888" target="_blank"> Continuous-time Marginal Structural Models for Adverse Drug Effects in Pharmacoepidemiology</a>
         authors: <u>Dong, Y.</u> & Cadarette, S., Saarela, O.
         conference: "University of Toronto Proquest (2021)"
 

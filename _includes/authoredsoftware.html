@@ -3,16 +3,16 @@
 <div class="interests-container container-block">
 
   <h2 class="container-block-title">
-    Authored Packages / Book
+    Authored Book / Tools
   </h2>
 
   <ul class="list-unstyled interests-list">
     {% for authored in authoredsoftwares %}
 
       {% if authored.link %}
-      <li><a href="{{ authored.link }}">{{ authored.item }}</a></li>
+      <li><a href="{{ authored.link }}"><b><u>{{ authored.item }}</u></b></a></li>
       {% else %}
-      <li>{{ authored.item }}</li>
+      <li><b><u>{{ authored.item }}</u></b></li>
       {% endif %}
 
     {% endfor %}

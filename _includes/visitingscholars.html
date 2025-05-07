@@ -13,14 +13,11 @@
   <div class="item">
 
     <div class="meta">
-
+      <h3 class="job-title">{{ scholar.role }}</h3> 
       <div class="upper-row">
-        <h3 class="job-title"><b>{{ scholar.role }}</b></h3> 
+        <div class="company">{{ scholar.company }}</div>
         <div class="time">{{ scholar.time }}</div>
       </div><!--//upper-row-->
-
-      <div class="company">{{ scholar.company }}</div>
-
     </div><!--//meta-->
 
     {% if scholar.details %}

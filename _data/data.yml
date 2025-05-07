@@ -118,7 +118,7 @@ experiences:
         • Designed templates that streamlined AE reporting in CSR; drafted developer's guidelines. <br>
         • Assist open-source initiatives in the department and industry-wide working groups. <br>
         
-    - role: Research Professional
+    - role: Real World Evidence Consultant
       time: 01.2021 - 12.2021
       company: Analysis Group - Department of Healthcare, Montreal
       details: |
@@ -143,7 +143,37 @@ experiences:
         • Pre-processed H&E and Feulgen images in MATLAB; tuned CNNs in Python. <br>
         • Trained Random Forest classifiers in R on imbalanced oral cell data to assist pathologists.<br>
         • Delivered bi-monthly presentations on deep learning applications in pathology.<br>
-  
+
+teach:
+  - role_title: Statistical Consulting
+    entries:
+      - company: CAN-BIND Depression Network – Toronto, Canada
+        time: Mar 2019 — Aug 2019
+        details: |
+        • Conducted network analysis on metrics in antidepressant responders vs non-responders. <br>
+        
+      - company: Princess Margaret Cancer Centre – Biostatistics, Toronto, Canada
+        time: Sep 2018 — May 2019
+        details: |
+        • Used PCA and lasso for radiomics feature selection with multiordinal logistic regression. <br>
+      
+      - company: UBC Hospital Neurology – Data Management, Vancouver, Canada
+        time: Apr 2016 — Aug 2016
+        details: |
+        • Imputed and summarized diagnostic data for Alzheimer’s Disease and Multiple Sclerosis. <br>
+
+  - role_title: Teaching Assistant
+    entries:
+      - company: University of Toronto Statistics Department
+        time: Jan 2020 — Dec 2020
+        details: |
+        • Methods of Multivariate Data; Methods of Data Analysis II; Statistics in Life Sciences. <br>
+        
+      - company: UBC Statistics Department
+        time: 2016 — 2017
+        details: |
+        • Introduction to Elementary Statistics. <br>
+      
 community:
   - entries:
       - role: useR! 2024 Conference Organizing Committee
@@ -166,32 +196,6 @@ community:
     details: |
       • Proposed and invited speakers to workshop session.  
       • Contributed to the organization of student activities.
-
-  - entries:
-      - role: Statistical Consulting
-        time: 2019
-        company: CAN-BIND Depression Network – Toronto, Canada
-      - role: Statistical Consulting
-        time: 2018
-        company: Princess Margaret Cancer Centre – Biostatistics, Toronto, Canada
-      - role: Statistical Consulting
-        time: 04.2016 - 08.2016
-        company: UBC Hospital Neurology – Data Management, Vancouver, Canada
-    details: |
-      • Conducted network analysis on metrics in antidepressant responders vs non-responders. <br>
-      • Used PCA and lasso for radiomics feature selection with multiordinal logistic regression. <br>
-      • Imputed and summarized diagnostic data for Alzheimer’s Disease and Multiple Sclerosis. <br>
-
-  - entries:
-      - role: Teaching Assistant
-        time: 2016 - 2017
-        company: UBC Statistics Department
-      - role: Teaching Assistant
-        time: 2020
-        company: University of Toronto Statistics Department
-    details: |
-      • Methods of Multivariate Data; Methods of Data Analysis II; Statistics in Life Sciences. <br>
-      • Introduction to Elementary Statistics. <br>
 
   - entries:
       - role: Vice President
@@ -235,7 +239,7 @@ publications:
         conference: "bioarxiv (2025)"
         
       - title: <a href="https://www.biorxiv.org/content/10.1101/2024.11.01.621259v1" target="_blank"> Transcriptome Analysis of Archived Tumor Tissues by Visium, GeoMx DSP, and Chromium Methods Reveals Inter-and Intra-Patient Heterogeneity</a>
-        authors: <u>Dong, Y.</u>, Saglietti, C., Bayard, Q., Perez, A. E., Carpentier, et al., & Gottardo, R. & Madissoon, E.
+        authors: <u>Dong, Y.</u>, Saglietti, C., Bayard, Q., Carpentier, et al., & Gottardo, R. & Madissoon, E.
         conference: "Nature Communication (2025)"
         
       - title: <a href="https://doi.org/10.1016/j.crmeth.2024.100718" target="_blank"> An Approach for Integrating Multimodal Omics Data into Sparse and Interpretable Model</a>
@@ -335,7 +339,7 @@ awards:
       details: |
         • Awarded to international undergraduate students who participate in Research Abroad.
         
-    - role: Faculty of Science International Student Scholarship & Dean’s Honor List
+    - role: Faculty of Science International Scholarship & Dean’s Honor List
       time: 2014 - 2018
       company: University of British Columbia, Vancouver, BC, Canada
       details: |

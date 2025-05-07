@@ -10,9 +10,9 @@
     {% for authored in authoredsoftwares %}
 
       {% if authored.link %}
-      <li><a href="{{ authored.link }}"><b><u>{{ authored.item }}</u></b></a></li>
+      <li><a href="{{ authored.link }}"><b><u><i>{{ authored.item }}</i></u></b></a></li>
       {% else %}
-      <li><b><u>{{ authored.item }}</u></b></li>
+      <li><b><u><i>{{ authored.item }}</i></u></b></li>
       {% endif %}
 
     {% endfor %}

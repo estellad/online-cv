@@ -1,12 +1,12 @@
 {% assign teachs = site.data.data.teach %}
-{% if teachs %}
+{% if experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-comments fa-stack-1x fa-inverse"></i>
     </span>
-    <b> Teaching & Consulting </b>
+    <b> Consulting & Teaching </b>
   </h2>
 
   {% for group in teachs %}
@@ -16,7 +16,7 @@
         <div class="meta">
           <div class="upper-row">
             <div class="company">{{ entry.company }}</div>
-            <div class="time"><b>{{ entry.time }}</b></div>
+            <div class="time">{{ entry.time }}</div>
           </div>
           <div class="details">
             {{ entry.details | markdownify }}

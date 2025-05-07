@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: estelladong729☆gmail.com
+    email: estella.yixing.dong☆gmail.com
     phone: 
     website: estellad.github.io/online-cv #do not add http://
     linkedin: estella-dong
@@ -20,26 +20,55 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@nalaotteristic'
+    twitter:
+    bluesky: '@estellayixingdong.bsky.social'
+    googlescholar: scholar.google.com/citations?user=VW7ttMQAAAAJ&hl=en&oi=ao #do not add http://
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     
-    softwareskills:  
-      - item: R, R Shiny, SAS, Matlab, Java
+    authoredsoftwares:  
+      - item: OSTA
+        link: https://lmweber.org/OSTA/
         
-      - item: Python (Keras & Tensorflow)  
+      - item: SpatialExperimentIO
+        link: https://github.com/estellad/SpatialExperimentIO
+        
+      - item: ggspavis
+        link: https://github.com/estellad/ggspavis/tree/estellad 
+        
+      - item: COVID19 Data Hub 
+        link: https://covid19datahub.io/
+
+      - item: OSTA.data
+        link: https://github.com/estellad/OSTA.data
+        
+      - item: STexampleData  
+        link: https://github.com/estellad/STexampleData
       
-      - item: SQL, Git, Excel, Stata, LaTeX
+    journalreviews:  
+      - item: Bioinformatics
+        
+      - item: eLife  
+    
+    softwareskills:  
+      - item: R, Shiny, Git, LaTeX, Python
+      
+      - item: Keras & Tensorflow, PyTorch
+        
+      - item: SAS, SQL, Matlab, Stata, Java  
+      
+      - item: Cluster, Snakemake, Container  
         
     interests:  
-      - item: Statistical Bioinformatics
+      - item: Precision Medicine & Immuno-oncology
 
-      - item: Bayesian Methods
-
-      - item: Causal Inference
+      - item: Statistics & Machine Learning
         
-      - item: Neurotechnology
+      - item: Clinical Trials & RWE
+      
+      - item: Spatial Transcriptomics 
+      
 
     languages:
       - idiom: English
@@ -57,19 +86,19 @@ sidebar:
     hobbies:  
       - item: Architecture Photography
 
-      - item: Figure Skating
+      - item: Artistic Ice Skating
 
-      - item: Hiking
+      - item: Hiking & Piano
       
       
 career-profile:
     title: Career Profile
     summary: |
-      A biostatistician with broad experience in quantitative biomedical research and industry.
+      A biostatistician & bioinformatician with broad experience in quantitative life sciences.
 education:
   - degree: PhD in Quantitative Biology
     university: University of Lausanne
-    time: 2022 - 2025
+    time: 2022 - 2026
 
   - degree: MSc in Biostatistics
     university: University of Toronto
@@ -79,131 +108,245 @@ education:
     university: University of British Columbia
     time: 2014 - 2018
       
-experiences:
-    - role: Doctoral Research Assistant
+employment:
+    - role: Doctoral Researcher
       time: 09.2022 - Present
       company: CHUV - Biomedical Data Science Center, Lausanne
       details: |
-        • Focusing on spatial transcriptomics, single-cell RNA-seq, proteomics, and Bayesian methods. <br>
+        • Integrating scRNAseq and spatial transcriptomics (ST) to decode breast, lung, DLBCL cancer.<br>
+        • Leveraging deep learning-extracted imaging features to inform gene expression analysis.<br>
+        • Developing pipeline for various ST technologies, such as GeoMx, Visium, VisiumHD & Xenium.<br>
 
     - role: Computational Scientist
       time: 01.2022 - 08.2022
-      company: Bayer - Department of Oncology Statistical Analysis, Mississauga
+      company: Bayer - Oncology Digitalization & Computational Science, Mississauga
       details: |
-        • Initiated and managed the overall project scope and timeline for two sub-teams: <br>
-        1. Linked SDTM to ADaM by adopting admiral R package to a Bayer study <br>
-        2. Linked ADaM to TLFs by a R & Shiny cross-validation pipeline <br>
-        
-        • Designed templates that streamlined the automation of AE reporting in CSR <br>
-        • Drafted internal developer's bookdown guide <br>
-        • Assist other R initiatives in the department and in several industry-wide working groups <br>
-        
-    - role: Open Source Volunteer Maintainer
-      time: 08.2021 - 12.2021
-      company: R Consortium – RStudio, Remote
-      details: |
-        • Merged pull requests to harmonize data source for the R package <a href="https://github.com/covid19datahub/COVID19" target="_blank">COVID19</a> Data Hub <br>
+        • Led first R for submission at Bayer with pharmaverse admiral, managing scope of 2 sub-teams.<br> 
+        • Designed templates that streamlined AE reporting in CSR; drafted developer's guidelines. <br>
+        • Assist open-source initiatives in the department and industry-wide working groups. <br>
         
     - role: Research Professional
       time: 01.2021 - 12.2021
       company: Analysis Group - Department of Healthcare, Montreal
       details: |
-       Selected cases as a health economics outcome research consultant: <br>
-        • Used random survival forest to predict the remission of rare disease <br>
-        • Proposed and implemented R workflows to automate data quality check and outreaching <br>
-        • Used IPTW to construct external control cohorts for Phase I/II trials <br>
+        • Used IPTW to create external control cohorts for a Phase II oncology trial. <br>
+        • Predicted the remission of rare diseases with random survival forest. <br>
+        • Developed R pipelines to automate chart review quality reports, improved efficiency. <br>
+        • Analyzed autoimmune disorder characteristics using IBM Optum NLP data. <br>
 
     - role: Biostatistics and Data Sciences Intern
       time: 05.2019 - 12.2020
-      company: Roche - Department of Biostatistics and US Medical Affairs, Mississauga
+      company: Roche - Biostatistics and US Medical Affairs, Mississauga
       details: |
-        • Reviewed protocols and conducted SAP/BAP for late phase oncology biomarker studies <br>
-        • Implemented exploratory RNA-seq functions and R shiny dashboard for HA submission <br> 
-        • Drafted proposal for integrating deep-learning-based imaging endpoints into clinical trial <br> 
-        • Developed a network analysis animation for real world drug use pattern recognition
-        
-    - role: Teaching Assistant
-      time: 01.2020 - 12.2020
-      company: University of Toronto - Department of Statistics, Toronto
-      details: |
-        • Lead tutorial sessions for Multivariate Data, Data Analysis II, and Elementary Statistics
-        
-    - role: Student Analyst
-      time: 09.2019 - 09.2020
-      company: Institute for Clinical Evaluative Sciences (ICES) - UofT, Toronto
-      details: |
-        • Proposed and conducted administrative pharmacoepidemiological data cleaning pipeline <br>
-        • Master thesis: developed continuous-time marked point processes algorithms
+        • Built Shiny module to explore AE and efficacy of a Phase I FDA breakthrough molecule. <br>
+        • Audited Phase II/III trial meetings, interim analysis, and reviewed study protocol and SAP.<br> 
+        • Developed R functions for disease biology analysis of RNA-seq data from 8 NHL trials. <br>
+        • Created network analysis animation to identify real-world drug use patterns.<br>
 
-    - role: Statistical Consulting Practicum
-      time: 09.2018 - 05.2019
-      company: Princess Margaret Cancer Center - Department of Biostatistics, Toronto
-      details: |
-        • Performed multiple imputation and regularized regression for psychometric and radiomics data
-      
-    - role: Summer Research Fellowship
-      time: 07.2018 - 08.2018
-      company: École polytechnique fédérale de Lausanne (EPFL) - Brain Computer Interface Lab, Geneva
-      details: |
-        • Research on transfer learning in decoding EEG signals with convolutional neural networks <br>
-        • Gave talks and presented at the internal poster symposium
-      
     - role: Machine Learning Algorithm Developer
-      time: 05.2017 - 05.2017
-      company: BC Cancer Research Center - Department of Integrative Oncology, Imaging Unit, Vancouver
+      time: 05.2017 - 05.2018
+      company: BC Cancer Research Center - Integrative Oncology Imaging Unit, Vancouver
       details: |
-        • Automated cancer diagnosis by linking machine learning algorithms with software engines <br>
-        • Customized deep learning algorithms to classify breast/prostate H&E and Feulgen scan images
-      
-    - role: Research Assistant
+        • Pre-processed H&E and Feulgen images in MATLAB; tuned CNNs in Python. <br>
+        • Trained Random Forest classifiers in R on imbalanced oral cell data to assist pathologists.<br>
+        • Delivered bi-monthly presentations on deep learning applications in pathology.<br>
+  
+community-involvement:
+  - entries:
+      - role: useR! 2024 Conference Organizing Committee
+        time: 07.2024
+        company: R Foundation, Virtual
+      - role: PhD Students Representative
+        time: 09.2023 - Present
+        company: Swiss Institute of Bioinformatics, Switzerland
+    details: |
+      • Evaluate abstract submissions (Biostatistics) from conference participants.
+      • Contributed to the organization of student activities.
+
+  - entries:
+      - role: Canadian Statistics Student Conference Organizing Committee
+        time: 01.2020 - 05.2020
+        company: Canadian Statistics Student Conference, Virtual
+      - role: Secretary & Social Organizer
+        time: 09.2018 - 09.2020
+        company: University of Toronto Biostatistics Graduate Society, Toronto, Canada
+    details: |
+      • Proposed and invited speakers to workshop session.  
+      • Contributed to the organization of student activities.
+
+  - entries:
+      - role: Statistical Consulting
+        time: 2019
+        company: CAN-BIND Depression Network – Toronto, Canada
+      - role: Statistical Consulting
+        time: 2018
+        company: Princess Margaret Cancer Centre – Biostatistics, Toronto, Canada
+      - role: Statistical Consulting
+        time: 04.2016 - 08.2016
+        company: UBC Hospital Neurology – Data Management, Vancouver, Canada
+    details: |
+      • Conducted network analysis on metrics in antidepressant responders vs non-responders. <br>
+      • Used PCA and lasso for radiomics feature selection with multiordinal logistic regression. <br>
+      • Imputed and summarized diagnostic data for Alzheimer’s Disease and Multiple Sclerosis. <br>
+
+  - entries:
+      - role: Teaching Assistant
+        time: 2016 - 2017
+        company: UBC Statistics Department
+      - role: Teaching Assistant
+        time: 2020
+        company: University of Toronto Statistics Department
+    details: |
+      • Methods of Multivariate Data; Methods of Data Analysis II; Statistics in Life Sciences. <br>
+      • Introduction to Elementary Statistics. <br>
+
+  - entries:
+      - role: Vice President
+        time: 2015 - 2017
+        company: UBC Undergraduate Statistic Society
+      - role: Peer Mentor
+        time: 2017
+        company: UBC Integrated Sciences Department
+    details: |
+      • Contributed to the organization of student activities. <br>
+      • Mentored two junior students, providing guidance on curriculum planning. <br>       
+
+visiting-scholar:
+    - role: <a href="https://github.com/estellad/Discrete-vs-Continuous-MSM" target="_blank"> Continuous-time Marginal Structural Models in Pharmacoepidemiology</a>
+      time: 01.2020 - 12.2020
+      company: Institute for Clinical Evaluative Sciences (ICES), Toronto, Canada
+      details: |
+        •	Integrated causal inference & survival analysis for longitudinal pharmacoepidemiology. <br>
+        •	Used weighted case-base sampling as an alternative to Cox proportional hazards modeling. <br>        
+
+    - role: <a href="https://github.com/estellad/Conv-EEG-Decoding" target="_blank"> Cross-paradigm Transfer Learning in Decoding EEG Signals with CNNs</a>
+      time: 07.2018 - 09.2018
+      company: Brain Computer Interface Lab EPFL, Geneva, Switzerland
+      details: |
+        • Trained CNNs with transfer learning and compared to LDA for classifying ErrP EEG signals. <br>
+
+    - role: <a href="https://github.com/estellad/Bayesian-for-BOLD" target="_blank"> Computational Parametric Mapping with Neurometric Bayesian Framework</a>
       time: 01.2017 - 05.2017
-      company: Danish Research Center for Magnetic Resonance (DRCMR), Copenhagen
+      company: Danish Research Centre for Magnetic Resonance, Copenhagen, Denmark
       details: |
-        • Established the ground truth simulation for a Bayesian framework on fMRI BOLD signals <br>
-        • Presented at the internal poster symposium
-    
-    - role: Teaching Assistant
-      time: 09.2016 - 04.2018
-      company: University of British Columbia - Department of Statistics, Vancouver
-      details: |
-        • Lead tutorial sessions for Elementary Statistics    
-        
-    - role: Data Analyst
-      time: 04.2016 - 08.2016
-      company: UBC Hospital - Department of Neurology, Vancouver
-      details: |
-        • Managing Alzheimer's, Multiple Sclerosis patient files <br>
-        • Provided data entry and summary statistics 
-        
+        •	Simulated ground truth for Steven power law in fMRI BOLD signals via a Bayesian framework.<br>
+  
+
 publications:
-    title: Publications
+    title: Publication
     intro: |
     
     papers:
-      - title: TBD
-        authors: <u>Dong, Y.</u>, TBD 
-        conference: "TBD"
+      - title: From Transcripts to Cells: Dissecting Sensitivity, Signal Contamination, and Specificity in Xenium Spatial Transcriptomics
+        authors: Bilous, M., Buszta, D., Bac, J., Kang, S., <u>Dong, Y.</u>, et al., & Homicsko, K., Gottardo, R.
+        conference: "bioarxiv (2025)"
+        
+      - title: Transcriptome Analysis of Archived Tumor Tissues by Visium, GeoMx DSP, and Chromium Methods Reveals Inter-and Intra-Patient Heterogeneity
+        authors: <u>Dong, Y.</u>, Saglietti, C., Bayard, Q., Perez, A. E., Carpentier, et al., & Gottardo, R. & Madissoon, E.
+        conference: "Nature Communication (2025)"
+        
+      - title: An Approach for Integrating Multimodal Omics Data into Sparse and Interpretable Model
+        authors: <u>Dong, Y.</u> & Gottardo, R. 
+        conference: "Cell Reports Methods (2024)"
+        
+      - title: Continuous-time Marginal Structural Models for Adverse Drug Effects in Pharmacoepidemiology
+        authors: <u>Dong, Y.</u> & Cadarette, S., Saarela, O.
+        conference: "University of Toronto Proquest (2021)"
 
 
-      
 conferences:
-    title: Conferences
+    title: Conference - Hackathon - Invited Talk
     intro: >
     
     assignments:
+      - title: <a href="https://openreview.net/forum?id=IlppJcjErP" target="_blank"> Advancing Spatial Biology Analysis Across Programming Languages</a>
+        authors: Marconato, L., et al., <u>Dong, Y.</u>, et al., & Theis, F.J. & Stegle, O.  (Oral Presentation)
+        conference: "European Bioconductor Conference, Barcelona, Spain. (2025)"
+
+      - title: <a href="https://openreview.net/forum?id=rGjHHCR60l" target="_blank"> OSTA book – Orchestrating Spatial (Transcript-)Omics Analysis with Bioconductor</a>
+        authors: <u>Dong, Y.</u>, et al., & Robinson, M. (Workshop Oral Presentation)
+        conference: "European Bioconductor Conference, Barcelona, Spain. (2025)"
+    
+      - title: <a href="https://aacrjournals.org/cancerres/article/85/8_Supplement_1/5089/759163" target="_blank"> Cross-platform comparison of snRNAseq, Visium, and Xenium on lung and breast cancer samples</a>
+        authors: Bilous, M., Buszta, D., Bac, J., <u>Dong, Y.</u>, et al., & Homicsko, K., Gottardo, R. (Poster)
+        conference: "American Association for Cancer Research, Chicago, United States. (2025)"
+        
+      - title: The current and future open-source landscape for disease biology in spatial transcriptomics
+        authors: <u>Dong, Y.</u> (Invited Bioinformatics Seminar)
+        conference: "Department of Biomedicine, University of Basel, Basel, Switzerland. (2025)" 
+      
+      - title: <a href="https://osf.io/preprints/biohackrxiv/8ck3e_v1" target="_blank"> 1st SpatialData Developer Workshop</a>
+        authors: Marconato, L., et al., <u>Dong, Y.</u>, et al., & Carey, V.J. (Hackathon)
+        conference: "Chan Zuckerberg Initiative (CZI), Basel, Switzerland. (2024)" 
+      
+      - title: A comprehensive benchmarking on the impact of normalization on spatial transcriptomics technologies
+        authors: <u>Dong, Y.</u> & Gottardo, R. (Poster)
+        conference: "ETHZ ASCONA Spatial and Temporal Statistical Modeling in Molecular Biology, Ascona, Switzerland. (2024)"
+      
+      - title: <a href="https://eurobioc2024.bioconductor.org/abstracts/paper31/" target="_blank"> Orchestrating spot and cellular resolution spatial transcriptomics workflow with Bioconductor – SpatialExperimentIO, STexampleData 2.0, and ggspavis 2.0</a>
+        authors: <u>Dong, Y.</u> & Weber L.M. (Workshop Oral Presentation)
+        conference: "European Bioconductor Conference, Oxford, United Kingdom. (2024)"
+      
+      - title: <a href="https://micro.biol.ethz.ch/events/events/2020/05/wolfsberg-meeting-2020.html" target="_blank"> Identifying intra-patient heterogeneity with spatial transcriptomic platforms</a>
+        authors: <u>Dong, Y.</u>, et al., & Gottardo, R. (Oral Presentation)
+        conference: "ETHZ Wolfsberg Swiss Immunology Student Conference, Ermatingen, Swizterland. (2024)"
+    
+      - title: <a href="https://europepmc.org/article/ppr/ppr873047" target="_blank"> VIB Hackathon on spatial omics tools and methods</a>
+        authors: Rombaut B., et al., <u>Dong, Y.</u>, et al., & Saeys, Y. (Hackathon)
+        conference: "VIB Spatial Omics Conference, Ghent, Belgium. (2024)"
+        
+      - title: MOSAIC pilot study — an experimental integration of atlas-level single-cell and spatial transcriptomics data
+        authors: <u>Dong, Y.</u>, et al., & Gottardo, R. (Poster)
+        conference: "VIB Spatial Omics Conference, Ghent, Belgium. (2024)"
+      
+      - title: <a href="https://www.bc2.ch/2023/tutorials-workshops.html" target="_blank"> Introduction to spatial transcriptomics data analysis</a>
+        authors: <u>Dong, Y.</u>, Guerra de Souza, A.C., Wyss, T. (Workshop Oral Presentation)
+        conference: "Basel Computational Biology Conference (BC2), Basel, Switzerland. (2023)"
+      
       - title: <a href="https://ash.confex.com/ash/2020/webprogram/Paper134867.html" target="_blank"> Lymphoma Microenvironment Deconvolution Links M1 Macrophage Infiltration to Clinical Outcome in Diffuse Large B-Cell Lymphoma</a>
-        authors: Yan, M., Chang, Y., Raghavan, V., <u>Dong, Y.</u>, Klein, C., Nielsen T.G., Paulson, J.N., and Hatzi, K. (Oral Presentation)
+        authors: <u>Dong, Y.*</u>, Yan, M.*, Chang, Y.*, Raghavan, V.*, et al. (Poster and Oral Presentation)
         conference: "American Society of Hematology, San Diego, United States / Virtual. (2020)"
         
       - title: Marginal Structural Models for Cumulative Exposure Effects in Pharmacoepidemiology
         authors: <u>Dong, Y.</u>, Saarela, O. and Cadarette, S. (Oral Presentation)
         conference: "Canadian Statistics Student Conference, Ottawa, Canada / Virtual. (2020)"
+    
+awards:
+    - role: European Bioconductor Conference Travel Grant
+      time: 09.2024
+      company: Bioconductor, Oxford, United Kingdom
+      details: |
+        • Awarded to participants in the 2024 conference in Oxford.
         
-      - title: Computational Parametric Mapping for Neurometric Power Law Testing and Analysis for Experimental Design Efficiency
-        authors: <u>Dong, Y.</u> and Hulme, O. (Poster)
-        conference: "UBC Neuroscience Conference, Vancouver, Canada. (2018)"
+    - role: Bayer Leadership Award
+      time: 08.2022
+      company: Bayer, Mississauga, Canada
+      details: |
+        • Nominated by colleagues for project contributions and leadership, with a 2nd-highest award.
+        
+    - role: Roche Personalized Healthcare Scholarship
+      time: 08.2019
+      company: Roche, Basel, Switzerland
+      details: |
+        • Awarded to students to participate in R in Pharma 2019 conference in Boston.
 
+    - role: Summer Research Program
+      time: 07.2018
+      company: EPFL SV, Lausanne, Switzerland
+      details: |
+        • Awarded as one of the 25 scholars among 600 applicants globally.
 
+    - role: UBC Go Global Award & DIS Scholarship
+      time: 01.2017
+      company: University of British Columbia, Vancouver, BC, Canada & DIS, Copenhagen, Denmark
+      details: |
+        • Awarded to international undergraduate students who participate in Research Abroad.
+        
+    - role: Faculty of Science International Student Scholarship & Dean’s Honor List
+      time: 2014 - 2018
+      company: University of British Columbia, Vancouver, BC, Canada
+      details: |
+        • Awarded for academic achievement and faculty engagement, with one 1st & two 2nd honors.
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>. Customized by Estella Dong.

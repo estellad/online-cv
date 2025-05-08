@@ -92,7 +92,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      A biostatistician & bioinformatician with broad experience in quantitative life sciences.
+      I am a PhD fellow in Spatial Transcriptomics at CHUV/UNIL, focusing on statistical methods for analyzing spatial gene expression and imaging data to understand immuno-oncology and clinical response. <br>
+      
+      I enjoy contributing to open-source projects to promote accessible tools and knowledge. <br>
+      
+      Previously, I worked for 3+ years in the pharmaceutical industry as a Biostatistician/Data Scientist. <br>
+      
 education:
   - degree: PhD in Quantitative Biology
     university: University of Lausanne
@@ -213,20 +218,20 @@ community:
 scholar:
     - role: <a href="https://github.com/estellad/Discrete-vs-Continuous-MSM" target="_blank"> Continuous-time Marginal Structural Models in Pharmacoepidemiology</a>
       time: 01.2020 - 12.2020
-      company: Institute for Clinical Evaluative Sciences (ICES), Toronto, Canada <p>🇨🇦 Canada</p>
+      company: Institute for Clinical Evaluative Sciences (ICES), Toronto, Canada 🇨🇦 
       details: |
         •	Integrated causal inference & survival analysis for longitudinal pharmacoepidemiology. <br>
         •	Used weighted case-base sampling as an alternative to Cox proportional hazards modeling. <br>        
 
     - role: <a href="https://github.com/estellad/Conv-EEG-Decoding" target="_blank"> Cross-paradigm Transfer Learning in Decoding EEG Signals with CNNs</a>
       time: 07.2018 - 09.2018
-      company: Brain Computer Interface Lab EPFL, Geneva, Switzerland <p>🇨🇭 Switzerland</p>
+      company: Brain Computer Interface Lab EPFL, Geneva, Switzerland 🇨🇭
       details: |
         • Trained CNNs with transfer learning and compared to LDA for classifying ErrP EEG signals. <br>
 
     - role: <a href="https://github.com/estellad/Bayesian-for-BOLD" target="_blank"> Computational Parametric Mapping with Neurometric Bayesian Framework</a>
       time: 01.2017 - 05.2017
-      company: Danish Research Centre for Magnetic Resonance, Copenhagen, Denmark <p>🇩🇰 Denmark</p>
+      company: Danish Research Centre for Magnetic Resonance, Copenhagen, Denmark 🇩🇰
       details: |
         •	Simulated ground truth for Steven power law in fMRI BOLD signals via a Bayesian framework.<br>
   

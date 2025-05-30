@@ -35,12 +35,12 @@ sidebar:
         
       - item: ggspavis
         link: https://www.bioconductor.org/packages/release/bioc/html/ggspavis.html
-
-      - item: PHUSE OSS White Paper
-        link: https://phuse-org.github.io/E2E-OS-Guidance/End-to-End-Open-source-Collaboration-Guidance.pdf
         
       - item: COVID19 Data Hub 
         link: https://covid19datahub.io/
+        
+      - item: PHUSE OSS White Paper
+        link: https://phuse-org.github.io/E2E-OS-Guidance/End-to-End-Open-source-Collaboration-Guidance.pdf
       
     journalreviews:  
       - item: Bioinformatics
@@ -194,7 +194,7 @@ community:
         time: 07.2024
         company: R Foundation, Virtual
     details: |
-      • Evaluated abstract submissions (Biostatistics) from conference participants. <br>
+      • Evaluated abstract submissions (Biostatistics, Machine Learning) from conference participants. <br>
       
   - entries:
       - role: End-to-End Open-source Collaboration Guidance
@@ -324,7 +324,7 @@ awards:
       time: 2024 & 2025
       company: Bioconductor, Oxford, United Kingdom; Barcelona, Spain
       details: |
-        • Awarded to participants in the 2024 conference in Oxford.
+        • Awarded to speakers in the 2024 & 2025 conferences.
         
     - role: Bayer Leadership Award
       time: 08.2022
@@ -354,7 +354,7 @@ awards:
       time: 2014 - 2018
       company: University of British Columbia, Vancouver, BC, Canada
       details: |
-        • Awarded with various (one 1st & two 2nd-highest) honors, totaling $30,000.
+        • Awarded with one 1st & two 2nd-highest honors, totaling $25,000.
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>. Customized by Estella Dong.

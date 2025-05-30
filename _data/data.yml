@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Estella Yixing DONG
-    tagline: Statistician
+    tagline: Biostatistician
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -34,7 +34,10 @@ sidebar:
         link: https://github.com/estellad/SpatialExperimentIO
         
       - item: ggspavis
-        link: https://github.com/estellad/ggspavis/tree/estellad 
+        link: https://www.bioconductor.org/packages/release/bioc/html/ggspavis.html
+
+      - item: PHUSE OSS White Paper
+        link: https://phuse-org.github.io/E2E-OS-Guidance/End-to-End-Open-source-Collaboration-Guidance.pdf
         
       - item: COVID19 Data Hub 
         link: https://covid19datahub.io/
@@ -60,13 +63,14 @@ sidebar:
         
       - item: Clinical Trials & RWE
       
-      - item: Spatial Omics & Immuno-oncology
+      - item: Spatial Omics & Immuno-Oncology
       
     licenses:  
+      - item: Good Clinical Practice
+      
       - item: Innosuisse Start-up Training 
 
       - item: Google Project Management
-      
 
     languages:
       - idiom: English
@@ -92,9 +96,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      PhD fellow in Spatial Transcriptomics at CHUV/UNIL, developing methods for analyzing spatial gene expression and imaging data to understand immuno-oncology and clinical response. <br>
+      A PhD fellow in Spatial Transcriptomics at CHUV/UNIL, developing methods for analyzing spatial gene expression and imaging data to understand immuno-oncology and clinical response. <br>
       
-      I enjoy contributing to open-source projects to promote accessible tools and knowledge. <br>
+      I also enjoy contributing to open-source projects to promote accessible tools and knowledge. <br>
       
       Previously, I spent 3+ years in the pharmaceutical industry as a Biostatistician/Data Scientist. <br>
       
@@ -170,19 +174,19 @@ teach:
       - company: UBC Hospital Neurology – Data Management, Vancouver, Canada
         time: 04.2016 - 08.2016
         details: |
-         • Imputed and summarized diagnostic data for Alzheimer’s Disease and Multiple Sclerosis. <br>
+         • Imputed and summarized diagnostic data for Alzheimer’s disease and multiple sclerosis. <br>
 
   - role_title: Teaching Assistant
     entries:
       - company: University of Toronto Statistics Department
         time: 2020
         details: |
-         • Methods of Multivariate Data; Methods of Data Analysis II; Statistics in Life Sciences. <br>
+         • Methods of multivariate data; Methods of data analysis II; Statistics in life sciences. <br>
         
       - company: UBC Statistics Department
         time: 2016 - 2017
         details: |
-         • Introduction to Elementary Statistics. <br>
+         • Introduction to elementary statistics. <br>
       
 community:
   - entries:
@@ -279,7 +283,7 @@ conferences:
         authors: <u>Dong, Y.</u> (Invited Bioinformatics Seminar)
         conference: "Department of Biomedicine, University of Basel, Basel, Switzerland. (2025)" 
       
-      - title: <a href="https://osf.io/preprints/biohackrxiv/8ck3e_v1" target="_blank"> 1st SpatialData Developer Workshop</a>
+      - title: <a href="https://osf.io/preprints/biohackrxiv/8ck3e_v1" target="_blank"> 1st SpatialData developer workshop</a>
         authors: Marconato, L., et al., <u>Dong, Y.</u>, et al., & Carey, V.J. (Hackathon)
         conference: "Chan Zuckerberg Initiative (CZI), Basel, Switzerland. (2024)" 
       
@@ -295,7 +299,7 @@ conferences:
         authors: <u>Dong, Y.</u>, et al., & Gottardo, R. (Oral Presentation)
         conference: "ETHZ Wolfsberg Swiss Immunology Student Conference, Ermatingen, Swizterland. (2024)"
     
-      - title: <a href="https://europepmc.org/article/ppr/ppr873047" target="_blank"> VIB Hackathon on spatial omics tools and methods</a>
+      - title: <a href="https://europepmc.org/article/ppr/ppr873047" target="_blank"> VIB hackathon on spatial omics tools and methods</a>
         authors: Rombaut B., et al., <u>Dong, Y.</u>, et al., & Saeys, Y. (Hackathon)
         conference: "VIB Spatial Omics Conference, Ghent, Belgium. (2024)"
         
@@ -307,18 +311,18 @@ conferences:
         authors: <u>Dong, Y.</u>, Guerra de Souza, A.C., Wyss, T. (Workshop Oral Presentation)
         conference: "Basel Computational Biology Conference (BC2), Basel, Switzerland. (2023)"
       
-      - title: <a href="https://ash.confex.com/ash/2020/webprogram/Paper134867.html" target="_blank"> Lymphoma Microenvironment Deconvolution Links M1 Macrophage Infiltration to Clinical Outcome in Diffuse Large B-Cell Lymphoma</a>
+      - title: <a href="https://ash.confex.com/ash/2020/webprogram/Paper134867.html" target="_blank"> Lymphoma microenvironment deconvolution links M1 macrophage infiltration to clinical outcome in diffuse large B-cell Lymphoma</a>
         authors: <u>Dong, Y.*</u>, Yan, M.*, Chang, Y.*, Raghavan, V.*, et al. (Oral Presentation)
         conference: "American Society of Hematology, San Diego, United States / Virtual. (2020)"
         
-      - title: Marginal Structural Models for Cumulative Exposure Effects in Pharmacoepidemiology
+      - title: Marginal structural models for cumulative exposure effects in pharmacoepidemiology
         authors: <u>Dong, Y.</u>, Saarela, O. and Cadarette, S. (Oral Presentation)
         conference: "Canadian Statistics Student Conference, Ottawa, Canada / Virtual. (2020)"
     
 awards:
     - role: European Bioconductor Conference Travel Grant
-      time: 09.2024
-      company: Bioconductor, Oxford, United Kingdom
+      time: 2024 & 2025
+      company: Bioconductor, Oxford, United Kingdom; Barcelona, Spain
       details: |
         • Awarded to participants in the 2024 conference in Oxford.
         
@@ -336,7 +340,7 @@ awards:
 
     - role: Summer Research Program
       time: 07.2018
-      company: EPFL SV, Lausanne, Switzerland
+      company: EPFL School of Life Science, Lausanne, Switzerland
       details: |
         • Awarded as one of the 25 scholars among 600 applicants globally.
 
@@ -350,7 +354,7 @@ awards:
       time: 2014 - 2018
       company: University of British Columbia, Vancouver, BC, Canada
       details: |
-        • Awarded for academic achievement and faculty engagement, with one 1st & two 2nd honors.
+        • Awarded with various (one 1st & two 2nd-highest) honors, totaling $30,000.
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>. Customized by Estella Dong.

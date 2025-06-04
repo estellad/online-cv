@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Estella Yixing DONG
-    tagline: Biostatistician
+    tagline: Biostatistician & Bioinformatician
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -186,7 +186,7 @@ teach:
       - company: UBC Statistics Department
         time: 2016 - 2017
         details: |
-         • Introduction to elementary statistics. <br>
+         • Introduction to elementary statistics, for 3 semesters. <br>
       
 community:
   - entries:
@@ -206,18 +206,19 @@ community:
   - entries:
       - role: Secretary & Social, Conference Workshop Organizer
         time: 2018 - 2020
-        company: Univ. of Toronto Biostatistics Graduate Society & CSSC, Toronto, Canada
+        company: Univ. of Toronto Biostatistics Graduate Society, Toronto, Canada
     details: |
-      • Proposed and invited speakers to workshop session. <br> 
-      • Contributed to the organization of student activities.
+      • Supported student activities and documented committee meeting minutes. <br>
+      • Proposed and invited speakers to Canadian Statistics Student Conference workshop session. 
 
   - entries:
       - role: Vice President & Peer Mentor
         time: 2015 - 2017
         company: UBC Undergraduate Statistic & Integrated Sciences Society
     details: |
-      • Mentored two junior students, providing guidance on curriculum planning. <br>
-      • Contributed to the organization of student activities.
+      • Organized events, including career nights, programming workshops, and student meetups. <br>
+      • Guided two junior students in academic and curriculum planning. 
+
 
 scholar:
     - role: <a href="https://github.com/estellad/Discrete-vs-Continuous-MSM" target="_blank"> Continuous-time Marginal Structural Models in Pharmacoepidemiology</a>

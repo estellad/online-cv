@@ -186,7 +186,7 @@ teach:
       - company: UBC Statistics Department
         time: 2016 - 2017
         details: |
-         • Introduction to elementary statistics, for 3 semesters. <br>
+         • Introduction to elementary statistics, for three semesters. <br>
       
 community:
   - entries:
@@ -246,7 +246,7 @@ publications:
     intro: |
     
     papers:
-      - title: <a href="https://www.biorxiv.org/content/10.1101/2024.11.01.621259v1" target="_blank"> Transcriptome Analysis of Archived Tumor Tissues by Visium, GeoMx DSP, and Chromium Methods Reveals Inter-and Intra-Patient Heterogeneity</a>
+      - title: <a href="https://www.nature.com/articles/s41467-025-59005-9" target="_blank"> Transcriptome Analysis of Archived Tumor Tissues by Visium, GeoMx DSP, and Chromium Methods Reveals Inter-and Intra-Patient Heterogeneity</a>
         authors: <u>Dong, Y.</u>, Saglietti, C., Bayard, Q., Carpentier, et al., & Gottardo, R. & Madissoon, E.
         conference: "Nature Communication (2025)"
         
@@ -260,7 +260,7 @@ publications:
         
       - title: <a href="http://hdl.handle.net/1807/104888" target="_blank"> Continuous-time Marginal Structural Models for Adverse Drug Effects in Pharmacoepidemiology</a>
         authors: <u>Dong, Y.</u> & Cadarette, S., Saarela, O.
-        conference: "University of Toronto Proquest (2021)"
+        conference: "ProQuest (2021)"
 
 
 conferences:
@@ -349,7 +349,7 @@ awards:
       time: 01.2017
       company: University of British Columbia, Vancouver, BC, Canada & DIS, Copenhagen, Denmark
       details: |
-        • Awarded to international undergraduate students who participate in Research Abroad.
+        • Awarded to undergraduate students who participate in Research Abroad.
         
     - role: Faculty of Science International Scholarship & Dean’s Honor List
       time: 2014 - 2018

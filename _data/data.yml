@@ -191,17 +191,17 @@ teach:
 community:
   - entries:
       - role: useR 2024 Conference Organizing Committee
-        time: 07.2024
+        time: 03.2024 - 07.2024
         company: R Foundation, Virtual
     details: |
       • Evaluated abstract submissions (Biostatistics, Machine Learning) from conference participants. <br>
       
   - entries:
       - role: End-to-End Open-source Collaboration Guidance
-        time: 07.2022
-        company: PHUSE Working Group 
+        time: 05.2022 - 09.2022
+        company: PHUSE Data Visualisation & Open Source Technology Working Group 
     details: |
-      • Co-authored white paper on OSS license guidance for the pharmaceutical industry. <br>
+      • Co-authored a white paper on OSS license guidance for the pharmaceutical industry. <br>
 
   - entries:
       - role: Secretary & Social, Conference Workshop Organizer
@@ -245,13 +245,13 @@ publications:
     intro: |
     
     papers:
-      - title: <a href="https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1" target="_blank"> From Transcripts to Cells – Dissecting Sensitivity, Signal Contamination, and Specificity in Xenium Spatial Transcriptomics</a>
-        authors: Bilous, M., Buszta, D., Bac, J., Kang, S., <u>Dong, Y.</u>, et al., & Homicsko, K., Gottardo, R.
-        conference: "bioarxiv (2025)"
-        
       - title: <a href="https://www.biorxiv.org/content/10.1101/2024.11.01.621259v1" target="_blank"> Transcriptome Analysis of Archived Tumor Tissues by Visium, GeoMx DSP, and Chromium Methods Reveals Inter-and Intra-Patient Heterogeneity</a>
         authors: <u>Dong, Y.</u>, Saglietti, C., Bayard, Q., Carpentier, et al., & Gottardo, R. & Madissoon, E.
         conference: "Nature Communication (2025)"
+        
+      - title: <a href="https://www.biorxiv.org/content/10.1101/2025.04.23.649965v1" target="_blank"> From Transcripts to Cells – Dissecting Sensitivity, Signal Contamination, and Specificity in Xenium Spatial Transcriptomics</a>
+        authors: Bilous, M., Buszta, D., Bac, J., Kang, S., <u>Dong, Y.</u>, et al., & Homicsko, K., Gottardo, R.
+        conference: "bioarxiv (2025)"
         
       - title: <a href="https://doi.org/10.1016/j.crmeth.2024.100718" target="_blank"> An Approach for Integrating Multimodal Omics Data into Sparse and Interpretable Model</a>
         authors: <u>Dong, Y.</u> & Gottardo, R. 
@@ -342,7 +342,7 @@ awards:
       time: 07.2018
       company: EPFL School of Life Science, Lausanne, Switzerland
       details: |
-        • Awarded as one of the 25 scholars among 600 applicants globally.
+        • Awarded as one of the 25 funded scholars among 600 applicants globally.
 
     - role: UBC Go Global Award & DIS Scholarship
       time: 01.2017

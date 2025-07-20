@@ -1,0 +1,22 @@
+{% assign licenses = site.data.data.sidebar.licenses %}
+{% if interests %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    Licenses
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for license in licenses %}
+
+      {% if license.link %}
+      <li><a href="{{ license.link }}">{{ license.item }}</a></li>
+      {% else %}
+      <li>{{ license.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//licenses-->
+{% endif %}

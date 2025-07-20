@@ -1,0 +1,29 @@
+{% assign teachs = site.data.data.teach %}
+{% if experiences %}
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-comments fa-stack-1x fa-inverse"></i>
+    </span>
+    <b> Consulting & Teaching </b>
+  </h2>
+
+  {% for group in teachs %}
+    <div class="item">
+      <h3 class="job-title"><b>{{ group.role_title }}</b></h3>
+      {% for entry in group.entries %}
+        <div class="meta">
+          <div class="upper-row">
+            <div class="company">{{ entry.company }}</div>
+            <div class="time">{{ entry.time }}</div>
+          </div>
+          <div class="details">
+            {{ entry.details | markdownify }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}

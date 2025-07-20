@@ -1,0 +1,17 @@
+---
+
+---
+
+@charset "utf-8";
+
+@import "skins/{{ site.theme_skin | default: 'berry' }}"; // skin
+@import "default"; // main partials
+
+.subsection-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3F4650;;
+  margin-top: 2em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25em;
+}

@@ -1,0 +1,22 @@
+{% assign journalreviews = site.data.data.sidebar.journalreviews %}
+{% if journalreviews %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    Journals Reviewed
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for journal in journalreviews %}
+
+      {% if journal.link %}
+      <li><a href="{{ journal.link }}">{{ journal.item }}</a></li>
+      {% else %}
+      <li>{{ journal.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

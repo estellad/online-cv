@@ -1,0 +1,32 @@
+{% assign involvements = site.data.data.community %}
+{% if experiences %}
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
+    </span>
+    <b> Community Involvement </b>
+  </h2>
+
+  {% for group in involvements %}
+    <div class="item">
+      {% for entry in group.entries %}
+        <div class="meta">
+          <div class="upper-row">
+            <h3 class="job-title"><b>{{ entry.role }}</b></h3> 
+            <div class="time">{{ entry.time }}</div>
+          </div>
+          <div class="company">{{ entry.company }}</div>
+        </div>
+      {% endfor %}
+
+      {% if group.details %}
+        <div class="details">
+          {{ group.details | markdownify }}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}

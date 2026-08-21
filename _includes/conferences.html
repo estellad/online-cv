@@ -1,0 +1,36 @@
+{% assign conferences = site.data.data.conferences %}
+{% if conferences %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+    </span>
+    <b> {{ conferences.title }} </b>
+  </h2>
+
+  {% if conferences.intro %}
+  <div class="intro">
+    {{ conferences.intro | markdownify }}
+  </div>
+  {% endif %}
+
+  {% assign category_order = "Invited Seminar,Workshop Presentation,Short Presentation,Poster,Hackathon" | split: "," %}
+
+  {% for cat in category_order %}
+    {% assign filtered = conferences.assignments | where: "category", cat %}
+    {% if filtered.size > 0 %}
+      <h3 class="subsection-title" style="margin-top: 1.5em;">{{ cat }}</h3>
+      {% for item in filtered %}
+        <div class="item">
+          <div class="publication-title">{{ item.title }}</div>
+          <div class="publication-authors">{{ item.authors }}</div>
+          <div class="publication-conference">{{ item.conference }}</div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+</section>
+{% endif %}

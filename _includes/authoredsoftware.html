@@ -1,0 +1,22 @@
+{% assign authoredsoftwares = site.data.data.sidebar.authoredsoftwares %}
+{% if authoredsoftwares %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    Authored Book / Tools
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for authored in authoredsoftwares %}
+
+      {% if authored.link %}
+      <li><a href="{{ authored.link }}"><b><u><i>{{ authored.item }}</i></u></b></a></li>
+      {% else %}
+      <li><b><u><i>{{ authored.item }}</i></u></b></li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
